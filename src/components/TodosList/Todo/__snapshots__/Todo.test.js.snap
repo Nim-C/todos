@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders single todo without failing 1`] = `
+<div
+  className="card rounded bg-white mb-4 col-12 shadow-sm"
+>
+  <div
+    className="card-body d-flex justify-content-between todo-name"
+  >
+    <div
+      className="custom-control custom-checkbox"
+    >
+      <input
+        className="custom-control-input"
+        id="todo-013513515122-checkbox"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="custom-control-label todo-completed"
+        htmlFor="todo-013513515122-checkbox"
+      >
+        Dummy
+      </label>
+    </div>
+    <svg
+      className="trash-icon"
+      onClick={[Function]}
+    >
+      trash-solid.svg
+    </svg>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+@media screen and (max-width: 991px) {
+  .form-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .todo-name-input {
+    margin-right: 0 !important;
+  }
+}
