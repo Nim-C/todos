@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Todos Form without failing 1`] = `
+<div
+  className="d-flex justify-content-between p-0 col-12 form-container mb-4"
+>
+  <input
+    className="todo-name-input form-control mr-3 my-2"
+    onChange={[Function]}
+    placeholder="Add todo’s..."
+    type="text"
+    value=""
+  />
+  <button
+    className="btn btn-success my-2"
+    onClick={[Function]}
+    type="button"
+  >
+    Add
+  </button>
+</div>
+`;

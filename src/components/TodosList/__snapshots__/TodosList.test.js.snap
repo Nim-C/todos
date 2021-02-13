@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Todos List without failing 1`] = `
+<div
+  className="d-flex flex-column align-items-center mx-auto col-12 col-lg-4"
+>
+  <div
+    className="d-flex justify-content-between p-0 col-12 form-container mb-4"
+  >
+    <input
+      className="todo-name-input form-control mr-3 my-2"
+      onChange={[Function]}
+      placeholder="Add todo’s..."
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-success my-2"
+      onClick={[Function]}
+      type="button"
+    >
+      Add
+    </button>
+  </div>
+  <div
+    className="todos-list-container w-100"
+  >
+    <h4
+      id="message-no-todos"
+    >
+      No Todo’s to show...
+    </h4>
+  </div>
+</div>
+`;
